@@ -1,0 +1,146 @@
+.wrapper{
+  margin: 40px;
+}
+
+.wrapperUsers{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.wrapperUser{
+  background-color: rgb(72, 72, 72);
+  width: 310px;
+  height: 160px;
+  overflow: hidden;
+  margin: 0px 20px 20px 0px;
+  border-radius: 10px;
+  padding: 10px;
+  transition-duration: 0.3s;
+}
+
+
+.wrapperUser:hover{
+  transition-duration: 0.3s;
+  background-color: rgb(101, 101, 101);
+}
+
+.WrapperUserHeader{
+  display: flex;
+}
+
+.WrapperUserHeaderName{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.WrapperUserHeaderAbbreviation{
+  width: 70px;
+  height: 60px;
+  background-color: rgb(134, 134, 134);
+  border-radius: 10px;
+  margin-right: 15px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+.WrapperUserHeaderFullName{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.wrapperUserList{
+  margin-top: 20px;
+}
+
+.wrapperUserList li{
+  margin-top: 5px;
+  letter-spacing: 0.1px;
+}
+
+.wrapperInput{
+  margin-bottom: 20px;
+  background-color: rgb(56, 56, 56);
+  width: 200px;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px; 
+  transition-duration: 0.3s;
+}
+
+.wrapperInput:focus{
+  transition-duration: 0.3s;
+  background-color: rgb(137, 137, 137);
+}
+
+.wrapperButtonDropdown{
+  margin: 20px 0px;
+  background-color: rgb(87, 87, 87);
+  width: 300px;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px; 
+  transition-duration: 0.3s;
+}
+
+.wrapperDropdownMenu{
+  position: relative;
+}
+
+.wrapperDropdown{
+  padding: 20px;
+  position: absolute;
+  top: 60px;
+  border-radius: 10px;
+  width: 300px;
+  background-color: rgb(87, 87, 87);
+  overflow: hidden;
+  animation: dropdown 0.3s forwards;
+}
+
+.wrapperDropdownButton{
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.wrapperDropdownItem{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.wrapperCleare{
+  margin-bottom: 20px;
+  background-color: rgb(56, 56, 56);
+  width: 200px;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px; 
+  transition-duration: 0.3s;
+}
+
+.wrapperCleare:hover{
+  background-color: rgb(101, 101, 101);
+}
+
+.wrapperCleare:active{
+  background-color: rgb(166, 166, 166);
+}
+
+
+@keyframes dropdown {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 350px;
+  }
+}
+
+

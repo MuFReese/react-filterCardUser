@@ -1,0 +1,11 @@
+
+.header{
+  background-color: rgb(0, 0, 0);
+  padding: 30px 20px;
+}
+
+.label{
+  color: white;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
